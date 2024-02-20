@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  margin: 0;
+  font-size: 1rem;
+  font-family: monospace;
+}
+
+p {
+  margin: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+button {
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(240, 144, 0);
+  font-weight: 700;
+  font-family: monospace;
+  width: 9rem;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(255, 153, 0);
+}
+
+.form-container {
+  width: 100%;
+  background-color: rgb(226, 225, 225);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  font-family: monospace;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  border: none;
+  background-color: white;
+  margin: 0.3rem;
+  width: 18rem;
+}
+
+.text-static {
+  max-width: 30rem;
+  text-align: left;
+}
+
+.dynamic {
+  display: flex;
+  display: column;
+  align-items: center;
+}
+
+.gdpr-text {
+  font-size: 0.8rem;
+  width: 30rem;
+}
