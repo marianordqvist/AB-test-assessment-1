@@ -28,13 +28,13 @@ export default function FormCTA() {
     if (signedUp) {
       sendTrackingData();
     }
-  });
+  }, [signedUp, email]);
 
-  const onChangeEmail = (e) => {
+  const onChangeEmail = (e: React.ChangeEvent<HTMLInputElement>) => {
     setEmail(e.target.value);
   };
 
-  const onSubmitForm = (e) => {
+  const onSubmitForm = (e: React.ChangeEvent<any>) => {
     e.preventDefault();
     setSignedUp(true);
   };
